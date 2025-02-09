@@ -1,15 +1,13 @@
 import { Container } from "react-bootstrap";
-import logo from "../assets/logo.svg";
 
-function HomePage() {
+function Home() {
     return (
         <>
             <Container>
-                <img height={200} alt="useless" src={logo}>
-                </img>
+                <h1>Home page</h1>
             </Container>
         </>
     );
 }
 
-export default HomePage;
+export default Home;

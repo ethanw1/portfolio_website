@@ -1,13 +1,13 @@
 import { Container } from "react-bootstrap";
 
-function Projects() {
+function NoPage() {
     return (
         <>
             <Container>
-                <h1>Projects</h1>
+                <h1>No page</h1>
             </Container>
         </>
     );
 }
 
-export default Projects;
+export default NoPage;
